@@ -96,25 +96,25 @@
         else if (number.value == "") 
         {
         alert("Please enter your mobile.");
-            email.focus();
+            number.focus();
             event.preventDefault();
         }
         else if (number.value.length>10) 
         {
         alert("Please enter a valid mobile number.");
-            email.focus();
+            number.focus();
             event.preventDefault();
         }
         else if (number.value.length<10) 
         {
         alert("Please enter a valid mobile number.");
-            email.focus();
+            number.focus();
             event.preventDefault();
         }
         else if (date.value == "") 
         {
         alert("Please enter date of birth.");
-            email.focus();
+            date.focus();
             event.preventDefault();
         }
         else if (password.value == "") 
@@ -132,7 +132,7 @@
        else if(password.value.length<6)
         {
             alert("Password length must be atleast 8 characters");
-            repassword.focus(); 
+            password.focus(); 
             event.preventDefault(); 
         }
         else if(password.value!=repassword.value)  
@@ -144,7 +144,7 @@
         else if(!terms.checked)
         {
             alert('Please accept the terms & service');
-            repassword.focus(); 
+            terms.focus(); 
             event.preventDefault();
         }
        else
